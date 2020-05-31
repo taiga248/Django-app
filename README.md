@@ -3,7 +3,6 @@
 Please type this command.
 
 ```
+$ pip install django
 $ python manage.py runserver
 ```
-
-In this repository django is installed with anaconda.
