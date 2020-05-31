@@ -1,0 +1,31 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ title }}</title>
+  <link rel="stylesheet" href="{% static 'hello/css/style.css' %}">
+</head>
+<body>
+  <h1>{{ title }}</h1>
+  <table>
+    <tr>
+      <th>id</th>
+      <th>name</th>
+      <th>age</th>
+      <th>mail</th>
+      <th>birthday</th>
+    </tr>
+    {% for item in data %}
+    <tr>
+      <td>{{ item.id }}</td>
+      <td>{{ item.name }}</td>
+      <td>{{ item.age }}</td>
+      <td>{{ item.mail }}</td>
+      <td>{{ item.birthday }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+</body>
+</html>

@@ -1,0 +1,110 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ddf;
+    color: gray;
+    font-size: 14pt;
+}
+.body_content {
+    width: 1000px;
+    background-color: #fff;
+}
+.body_content_inner {
+    padding: 50px;
+}
+h1{
+    color: red;
+    opacity: .2;
+    font-size: 72pt;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: right;
+    line-height: 70px;
+}
+p {
+    margin: 10px;
+}
+a {
+    color: blue;
+    text-decoration: none;
+}
+table{
+    margin: 10px;
+    font-size: 14pt;
+}
+table tr th {
+    background-color: #99f;
+    color: #fff;
+    padding: 2px 10px;
+    border-size: 2px;
+}
+table tr td {
+    background-color: #f6f6f6;
+    color: #666;
+    padding: 2px 10px;
+    border-size:: 2px;
+}
+.footer {
+    font-size: 9pt;
+    margin-top: 50px; 
+    margin-bottom: 100px;
+}
+.login_table {
+    padding: fixed;
+    top: 0;
+    left: 0;
+    width: 800px;
+    margin: 8px;
+}
+.login_table_inner {
+    padding: 1px;
+    margin: 0;
+}
+.login_table_inner tr th {
+    padding: 0;
+    margin: 0;
+}
+.login_table_inner tr td {
+    padding: 0 10px;
+    margin: 0;
+}
+.caption {
+    font-size: 10pt;
+}
+.messages {
+    border: solid #ccf 3px;
+    padding: 10px 50px;
+}
+.message_date {
+    text-align: left;
+    font-size: 10pt;
+}
+.message_owner {
+    text-align: right;
+    font-size: 12pt;
+    font-weight: bold;
+    margin: 30px 10px 0 10px;
+}
+.message_public {
+    font-size: 12pt;
+    font-weight: bold;
+    color: #69f;
+}
+.message_counter {
+    float: left;
+    font-weight: normal;
+    font-size: 12pt;
+    color: #f66;
+}
+.share_content {
+    border: solid 3px #ddf;
+    padding: 10px 20px;
+}
+.share_line {
+    border: 1px solid #e0e0ff
+}
+.share_item_content {
+    margin: 0 50px;
+    font-size: 12pt;
+}
